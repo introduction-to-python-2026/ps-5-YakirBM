@@ -26,7 +26,7 @@ def split_before_uppercases(formula):
     return parts
 
 def split_at_digit(formula):
-   """
+    """
     פיצול במפגש הספרה הראשונה:
     מחזיר (prefix, count) כאשר:
       - prefix: החלק לפני הספרה הראשונה (יכול להיות גם "" אם מתחיל בספרה)
@@ -57,7 +57,7 @@ def count_atoms_in_molecule(molecular_formula):
         # Step 2: Update the dictionary with the atom name and count
         counts[atom_name] = counts.get(atom_name, 0) + atom_count
     # Step 3: Return the completed dictionary
-    rturn counts
+    return counts
 
 
 def parse_chemical_reaction(reaction_equation):
